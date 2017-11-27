@@ -5,6 +5,10 @@ EPICS base + SNS CSS.
 
 ## Running the Image
 
+On the host, run the command:
+
+    xhost +local:docker
+
 The simplest way to run the image is to run:
 
     docker run --rm -it --net host -e DISPLAY=$DISPLAY \
